@@ -36,6 +36,12 @@
 * Pincode to Coordinates: When a pincode is provided, the Nominatim API converts it to latitude and longitude, which is stored in the database for future queries.
 * Weather Data: Based on the latitude and longitude, the OpenWeather API retrieves the weather information, which is then saved in the database for future requests.
 
+## Scalability and SOLID Principles:
+
+* SOLID Principles:
+> By adhering to SOLID principles, I've designed a system that is modular, maintainable, and easily extensible, laying the foundation for scalability and future enhancements.
+
+
 ## Testing:
 
 * JUnit and Mockito:
