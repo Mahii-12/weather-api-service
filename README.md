@@ -11,6 +11,12 @@
 ## PostgreSQL Database Integration:
 * Utilized as the database to store the weather data, pincode details (latitude and longitude), and weather information. PostgreSQL offers strong data integrity, reliability, and support for geospatial data, making it suitable for this use case.
 
+## Application Setup Instructions
+ * Clone the repository to your local machine:
+  > git clone https://github.com/Mahii-12/weather-api-service.git
+ * Build the project using Maven:
+  > mvn clean install
+
 ## External APIs:
 * OpenWeather API: Used to fetch weather information based on latitude and longitude.
 * Nominatim API (OpenStreetMap): Used to convert the pincode into latitude and longitude coordinates, optimizing the process of fetching weather data.
